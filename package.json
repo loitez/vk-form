@@ -1,0 +1,35 @@
+{
+  "name": "vk-form",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fls",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browserslist": "^4.21.4",
+    "del": "^4.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-include": "^2.4.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "overrideBrowserslist": [
+    "last 2 versions"
+  ]
+}
