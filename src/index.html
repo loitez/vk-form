@@ -6,59 +6,85 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Форма</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Бронирование переговорной</h1>
+<h1 class="heading">Бронирование переговорной</h1>
 <hr>
 <form action="">
-    <select name="" id="">
-        <option value="">Башня А</option>
-        <option value="">Башня Б</option>
-    </select>
-    <select name="" id="">
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-        <option value="">6</option>
-        <option value="">7</option>
-        <option value="">8</option>
-        <option value="">9</option>
-        <option value="">10</option>
-        <option value="">11</option>
-        <option value="">12</option>
-        <option value="">13</option>
-        <option value="">14</option>
-        <option value="">15</option>
-        <option value="">16</option>
-        <option value="">17</option>
-        <option value="">18</option>
-        <option value="">19</option>
-        <option value="">20</option>
-        <option value="">21</option>
-        <option value="">22</option>
-        <option value="">23</option>
-        <option value="">24</option>
-        <option value="">25</option>
-        <option value="">26</option>
-        <option value="">27</option>
-    </select>
-    <select name="" id="">
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-        <option value="">6</option>
-        <option value="">7</option>
-        <option value="">8</option>
-        <option value="">9</option>
-        <option value="">10</option>
-    </select>
-    <input type="date" id="date">
-    <label for="date"></label>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-    <buttin>Очистить</buttin>
-    <input type="submit" id="submit">
+    <fieldset>
+        <select name="" id="">
+            <option value="">Башня А</option>
+            <option value="">Башня Б</option>
+        </select>
+        <select name="" id="">
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            <option value="">13</option>
+            <option value="">14</option>
+            <option value="">15</option>
+            <option value="">16</option>
+            <option value="">17</option>
+            <option value="">18</option>
+            <option value="">19</option>
+            <option value="">20</option>
+            <option value="">21</option>
+            <option value="">22</option>
+            <option value="">23</option>
+            <option value="">24</option>
+            <option value="">25</option>
+            <option value="">26</option>
+            <option value="">27</option>
+        </select>
+        <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <div class="date">
+            <input type="date" id="date" class="date__input">
+            <label for="date" class="date__label"></label>
+        </div>
+        <input type="time" id="time">
+        <label for="time"></label>
+    </fieldset>
+    <fieldset class="text">
+        <textarea name="" id="" cols="30" rows="10" class="text__input" placeholder="Комментарий"></textarea>
+    </fieldset>
+    <fieldset class="btn-wrapper">
+        <div class="btn btn__secondary">
+            <button>Очистить</button>
+            <!--<p>Отправить</p>-->
+        </div>
+
+        <div class="btn btn__primary">
+            <input type="submit" id="submit">
+            <!--<p>Отправить</p>-->
+        </div>
+
+    </fieldset>
+
     <!--<label for="submit">Отправить</label>-->
 </form>
 
